@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+	repositories {
+		google()
+		mavenCentral()
+	}
+}
+rootProject.name = "TestForFullStack"
+apply from: 'build_system/modules.gradle'
+apply from: 'build_system/utils.gradle'
+
+unpackMapValues(Modules) { include(it) }

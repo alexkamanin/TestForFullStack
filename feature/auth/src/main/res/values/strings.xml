@@ -1,0 +1,11 @@
+<resources>
+
+	<string name="auth_description">GitHub прекратил аутентификацию по логину и паролю,
+		начиная с 13 ноября 2020 года для всех учетных записей GitHub.com ,
+		в том числе на GitHub Free, GitHub Pro, GitHub Team или GitHub Enterprise Cloud plan.
+		Теперь вы должны пройти аутентификацию в GitHub с помощью OAuth токена.</string>
+
+	<string name="token_documentation_uri">https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token</string>
+	<string name="auth_button_text">Авторизироваться</string>
+	<string name="auth_toolbar_title">Аудентификация</string>
+</resources>

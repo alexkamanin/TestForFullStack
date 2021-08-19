@@ -1,0 +1,32 @@
+ext.Modules = [
+	APP      : ":app",
+	FEATURE  : [
+		SPLASH: ":feature:splash",
+		AUTH  : ":feature:auth",
+		INFO  : ":feature:info",
+		LIST  : [
+			STORE : ":feature:list:store",
+			COMMIT: ":feature:list:commit"
+		]
+
+	],
+	LIBRARIES: [
+		CORE   : ":libraries:core",
+		STORAGE: ":libraries:storage",
+		NETWORK: [
+			CORE: ":libraries:network:core"
+		],
+		THEME  : ":libraries:theme"
+	],
+	SHARED   : [
+		STORE : [
+			DATA  : ":shared:store:data",
+			DOMAIN: ":shared:store:domain"
+		],
+		AUTH  : [
+			DATA  : ":shared:auth:data:",
+			DOMAIN: ":shared:auth:domain"
+		],
+		CLIENT: ":shared:client"
+	]
+]

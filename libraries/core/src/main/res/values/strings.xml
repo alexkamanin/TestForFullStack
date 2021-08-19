@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="error_dialog_title">"Упс, ошибочка..."</string>
+	<string name="error_connection">Отсутствует подключение к интернету. Проверьте соединение и повторите попытку.</string>
+	<string name="error_authorization">Пользователь с таким токеном не существует. Проверьте правильность токена и повторите попытку.</string>
+	<string name="error_not_found">Неопределенная ошибка. Повторите попытку позже.</string>
+	<string name="error_message">Упс, похоже что-то пошло не так...\nПроверьте соединение с интернетом и др.</string>
+	<string name="error_button_text">Повторить</string>
+</resources>

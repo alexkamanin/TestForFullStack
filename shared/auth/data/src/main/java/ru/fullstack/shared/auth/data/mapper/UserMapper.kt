@@ -1,0 +1,45 @@
+package ru.fullstack.shared.auth.data.mapper
+
+import ru.fullstack.shared.auth.data.dto.UserDto
+import ru.fullstack.shared.auth.domain.entity.User
+
+fun UserDto.toEntity() = User(
+	login,
+	id,
+	node_id,
+	avatar_url,
+	gravatar_id,
+	url,
+	html_url,
+	followers_url,
+	following_url,
+	gists_url,
+	starred_url,
+	subscriptions_url,
+	organizations_url,
+	repos_url,
+	events_url,
+	received_events_url,
+	type,
+	site_admin,
+	name,
+	company,
+	blog,
+	location,
+	email,
+	hireable,
+	bio,
+	twitter_username,
+	public_repos,
+	public_gists,
+	followers,
+	following,
+	created_at,
+	updated_at,
+	private_gists,
+	total_private_repos,
+	owned_private_repos,
+	disk_usage,
+	collaborators,
+	two_factor_authentication
+)

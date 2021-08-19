@@ -1,0 +1,8 @@
+<resources>
+	<string name="commit_toolbar_title">Список коммитов</string>
+
+	<string name="author_format">Автор: %s</string>
+	<string name="sha_format">Hash: %s</string>
+	<string name="message_format">Описание: %s</string>
+	<string name="date_format">Дата: %s</string>
+</resources>

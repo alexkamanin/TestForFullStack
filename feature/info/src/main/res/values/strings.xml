@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="view_commits_button_text">Посмотреть коммиты</string>
+	<string name="info_description_format">Описание: %s</string>
+	<string name="info_forks_format">Кол-во форков: %d</string>
+	<string name="info_watchers_format">Кол-во просмотров: %d</string>
+	<string name="info_description_non">отсутствует</string>
+</resources>
